@@ -8,6 +8,19 @@
     --transition-speed: 600ms;
   }
   
+  .jumbotron {
+    background-image: url(lines-red.jpg);
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-color: var(--bg-primary);
+  }
+  
+  .card{
+    z-index: -1;
+    border-style: solid;
+    border-color: var(--bg-primary);
+  }
   body {
     background-image: url(http://www.baltana.com/files/wallpapers-5/Black-And-White-Background-Amazing-HD-Wallpaper-16250.jpg);
     background-position: unset;
@@ -153,20 +166,6 @@
     main {
       margin: 0;
     }
-    
-    .jumbotron {
-      background-image: url(lines-red.jpg);
-      background-size: cover;
-      background-position: center;
-      border-style: solid;
-      border-color: var(--bg-primary);
-    }
-    
-    .card{
-      z-index: -1;
-      border-style: solid;
-      border-color: var(--bg-primary);
-    }
   
   /* Large screens */
   @media only screen and (min-width: 600px) {
@@ -186,18 +185,4 @@
   
     .navbar:hover .logo-text{
       left: 0px;
-    }
-
-    .jumbotron {
-      background-image: url(lines-red.jpg);
-      background-size: cover;
-      background-position: center;
-      border-style: solid;
-      border-color: var(--bg-primary);
-    }
-    
-    .card{
-      z-index: -1;
-      border-style: solid;
-      border-color: var(--bg-primary);
     }
