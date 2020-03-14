@@ -150,12 +150,14 @@ main {
     height: auto;
   }
   
-/* Small screens */
+/* 
+Small screens 
+*/
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
-    width: 100vw;
-    height: 5rem;
+    width: 50vw;
+    height: 3rem;
   }
 
   .logo {
@@ -175,7 +177,9 @@ main {
   }
 }
 
-/* Large screens */
+/* 
+Large screens 
+*/
 @media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
